@@ -1,3 +1,19 @@
     .buttonupdate {
     	display: inline !important;
     }
+    
+    .resp {
+    	color: #570702;
+    }
+    
+    button, .button, .buttonb {
+    	background-color: #c2c3ff;
+    	border-radius: 5px;
+    }
+    
+    .buttonb{
+    	padding-left: 10px;
+    	padding-right: 10px;
+    	padding-top: 7px;
+    	padding-bottom: 7px;
+    }

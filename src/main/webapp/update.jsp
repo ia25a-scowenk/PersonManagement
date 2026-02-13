@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet">
 <title>Login JSP</title>
 </head>
 <body>
@@ -15,12 +16,12 @@
 		<label for="last">Last name:</label><br>
 		<input type="text" id="last" name="last" value="${param.lastname}">
 		<br><br>
-		<input type="submit" value="submit" />
+		<input type="submit" value="submit" class="buttonb"/>
 	</form> <br><br>
-	${resp}
+	<p class="resp">${resp}</p>
 	
 	<form action="http://localhost:8080/PersonManagement/controller" method="GET">
-		<input type="submit" value="Back to the List"/>
+		<input type="submit" value="Back to the List" class="buttonb"/>
 	</form> 
 </body>
 </html>

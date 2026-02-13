@@ -19,7 +19,7 @@
 					<input type="hidden" id="uuid" name="uuid" value="${item.uuid}">
 					<input type="hidden" id="firstname" name="firstname" value="${item.vorname}">
 					<input type="hidden" id="lastname" name="lastname" value="${item.nachname}">
-					<input type="submit" value="Update">
+					<input type="submit" value="Update" class="button">
 				</form>
 			</li>
 			<br>
@@ -44,7 +44,7 @@
 	</script>
 	<form action="http://localhost:8080/PersonManagement">
 		<br>
-		<input type="submit" value="Home" />
+		<input type="submit" value="Home" class="buttonb"/>
 	</form>
 </body>
 </html>

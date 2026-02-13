@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet">
 <title>Add Person</title>
 </head>
 <body>
@@ -14,12 +15,12 @@
 		<label for="last">Last name:</label><br>
 		<input type="text" id="last" name="last">
 		<br><br>
-		<input type="submit" value="submit" />
+		<input type="submit" value="submit" class="buttonb"/>
 	</form> <br><br>
-	${resp}
+	<p class="resp">${resp}</p>
 	
 	<form action="http://localhost:8080/PersonManagement">
-		<input type="submit" value="Home"/>
+		<input type="submit" value="Home" class="buttonb"/>
 	</form> 
 </body>
 </html>
